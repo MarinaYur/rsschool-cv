@@ -1,0 +1,84 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.nav-list li a {
+  color: #358ae4;
+}
+
+.nav-list li a:hover {
+  color: #083e79;
+}
+
+pre {
+  background-color: #dce1e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
+  border-top: 1px solid #000000;
+}
+
+footer p {
+  font-weight: 600;
+}
+
+.footer__logo {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: center / contain no-repeat url("./images/rss-logo.svg");
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px #1c2733) brightness(0.6);
+  transition: all 0.3s ease;
+}
+
+.footer__nick {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: center / contain no-repeat url("./images/git-hub-logo.png");
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px #1c2733) brightness(0.6);
+  transition: all 0.3s ease;
+}
+
+.projects li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.projects li a:hover {
+  color: #358ae4;
+}
